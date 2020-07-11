@@ -1,12 +1,11 @@
-from random import random
+import numpy as np
 
 class Env:
     def __init__(self):
         self.fn = lambda x: 3 * x
 
     def reset(self):
-        self.s = random() * 10 - 5
-        # return [self.s]
+        self.s = np.random.rand() * 10 - 5
         return self.s
 
     def step(self, a):
