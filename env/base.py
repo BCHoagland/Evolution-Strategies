@@ -1,6 +1,6 @@
 import numpy as np
 
-class Env:
+class BaseEnv:
     def __init__(self):
         self.fn = lambda x: 3 * x
 

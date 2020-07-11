@@ -8,6 +8,7 @@ def plot(filename, show=False):
         data = pickle.load(f)
 
         # format and plot
+        plt.clf()
         plt.title(filename)
         plt.xlabel('Parameter Updates')
         plt.ylabel('Fitness')
