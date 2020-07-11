@@ -1,4 +1,4 @@
-class Policy:
+class LinearPolicy:
     def __init__(self, params):
         self.params = params
     

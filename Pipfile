@@ -9,6 +9,7 @@ verify_ssl = true
 cmaes = "*"
 numpy = "*"
 matplotlib = "*"
+torch = "*"
 
 [requires]
 python_version = "3.7"
