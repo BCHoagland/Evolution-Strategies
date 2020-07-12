@@ -1,4 +1,3 @@
 virtual batch normalization => not brittle anymore
-sample ε and -ε instead of just ε (mirror sampling)
 transform fitness scores (F_i) into just ranks to reduce the effect of outlier performers
 weight decay to network params

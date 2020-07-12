@@ -10,6 +10,7 @@ cmaes = "*"
 numpy = "*"
 matplotlib = "*"
 torch = "*"
+gym = "*"
 
 [requires]
 python_version = "3.7"
